@@ -8,8 +8,8 @@ document.getElementById("order-form").addEventListener("submit", async (e) => {
       { price: "price_1SCfCO4mV0OJd9ZlKRVeHOkH", quantity: 1 },
     ],
     mode: "payment",
-    successUrl: window.location.origin + "/success.html",
-    cancelUrl: window.location.origin + "/index.html",
+successUrl: window.location.origin + "/success.html",
+cancelUrl: window.location.origin + "/index.html",
   });
 
   if (error) {
